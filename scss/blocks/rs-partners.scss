@@ -1,0 +1,39 @@
+.rs-partners {
+	overflow: hidden;
+
+	// .rs-partners__container
+	&__container {
+	}
+
+	// .rs-partners__slider
+	&__slider {
+		margin: -15px;
+		padding: 15px;
+		min-height: 1px;
+		height: auto;
+		@media (max-width: 991.98px) {
+			overflow: visible;
+		}
+	}
+
+	// .rs-partners__swiper
+	&__swiper {
+	}
+
+	// .rs-partners__slide
+	&__slide {
+		min-height: 1px;
+		height: auto;
+		border-radius: 8px;
+		overflow: hidden;
+		background: #f4f6f7;
+		padding: 24px;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+			max-height: 101px;
+		}
+	}
+}

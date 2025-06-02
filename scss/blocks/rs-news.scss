@@ -1,0 +1,24 @@
+.rs-news {
+	// .rs-news__container
+	&__container {
+	}
+
+	// .rs-news__slider
+	&__slider {
+		@media (max-width: 991.98px) {
+			overflow: visible;
+		}
+	}
+
+	// .rs-news__swiper
+	&__swiper {
+	}
+
+	// .rs-news__slide
+	&__slide {
+		height: auto;
+		min-height: 1px;
+	}
+}
+
+@import "../components/news-components";

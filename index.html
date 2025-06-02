@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" href="lib/swiper/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/rs-style.css" />
+
+	<title>Главная | Система</title>
+</head>
+
+<body>
+
+	<div class="wrapper">
+
+		<link rel="stylesheet" href="css/rs-header.css">
+		<script src="js/rs-header.js" defer></script>
+		<header>
+			<div class="rs-header">
+				<div class="rs-header__top">
+					<div class="rs-header__container">
+						<div class="rs-header__location">
+							<svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8 1.83333C9.5913 1.83333 11.1174 2.46547 12.2426 3.59069C13.3679 4.71591 14 6.24204 14 7.83333C14 9.88267 12.8827 11.56 11.7053 12.7633C11.117 13.3579 10.4752 13.8971 9.788 14.374L9.504 14.5673L9.37067 14.656L9.11933 14.816L8.89533 14.9527L8.618 15.114C8.42967 15.2212 8.2167 15.2776 8 15.2776C7.7833 15.2776 7.57033 15.2212 7.382 15.114L7.10467 14.9527L6.758 14.7393L6.63 14.656L6.35667 14.474C5.61532 13.9722 4.92471 13.3993 4.29467 12.7633C3.11733 11.5593 2 9.88267 2 7.83333C2 6.24204 2.63214 4.71591 3.75736 3.59069C4.88258 2.46547 6.4087 1.83333 8 1.83333ZM8 5.83333C7.73736 5.83333 7.47728 5.88507 7.23463 5.98557C6.99198 6.08608 6.7715 6.2334 6.58579 6.41912C6.40007 6.60484 6.25275 6.82532 6.15224 7.06797C6.05173 7.31062 6 7.57069 6 7.83333C6 8.09598 6.05173 8.35605 6.15224 8.5987C6.25275 8.84135 6.40007 9.06183 6.58579 9.24755C6.7715 9.43327 6.99198 9.58058 7.23463 9.68109C7.47728 9.7816 7.73736 9.83333 8 9.83333C8.53043 9.83333 9.03914 9.62262 9.41421 9.24755C9.78929 8.87248 10 8.36377 10 7.83333C10 7.3029 9.78929 6.79419 9.41421 6.41912C9.03914 6.04405 8.53043 5.83333 8 5.83333Z"
+									fill="#386378" />
+							</svg>
+							<div class="rs-header__location_text" data-quantity-symbol="70">
+								198095, г. Санкт-Петербург, ул. Балтийская д. 52–54 лит. Д
+							</div>
+						</div>
+
+						<div class="rs-header__social social">
+							<ul class="social__list">
+								<li>
+									<a href="#">
+										<img src="./img/icons/vk.svg" alt="">
+										ВКонтакте
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="./img/icons/tg.svg" alt="">
+										Telegram
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="./img/icons/wa.svg" alt="">
+										Whatsapp
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="rs-header__contact contact">
+							<ul class="contact__list">
+								<li>
+									<a href="mailto:pro@sistema112.ru">
+										<img src="./img/icons/mail.svg" alt="">
+										pro@sistema112.ru
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="rs-header__body">
+					<div class="rs-header__container">
+						<div class="rs-header__logo">
+							<a href="#">
+								<img src="./img/header/logo.svg" alt="" />
+							</a>
+						</div>
+
+						<div class="rs-header__block">
+							<div class="rs-header__wrapper">
+								<div class="rs-header__menu menu">
+									<button type="button" class="menu__icon icon-menu">
+										<span class="menu__icon_burger">
+											<svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M2.65625 8.5H14.3438" stroke="white" stroke-width="1.7"
+													stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M2.65625 4.25H14.3438" stroke="white" stroke-width="1.7"
+													stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M2.65625 12.75H14.3438" stroke="white" stroke-width="1.7"
+													stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+										</span>
+										<span class="menu__icon_text">
+											<span>Меню</span>
+											<span>Закрыть</span>
+										</span>
+									</button>
+
+									<div class="menu__block">
+										<nav class="menu__body">
+											<ul class="menu__list">
+												<li class="menu-item current_menu_item">
+													<a href="#">Главная</a>
+												</li>
+
+												<li class="menu-item menu__dropdown">
+													<a href="#services">Расчётный центр</a>
+
+													<ul class="menu__dropdown_list">
+														<li class="menu-item">
+															<a href="#">Юридическое сопровождение сделок</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Организация взаиморасчётов сторон</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Регистрация в Росреест</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Сейфинг</a>
+														</li>
+													</ul>
+												</li>
+
+												<li class="menu-item menu__dropdown">
+													<a href="#">Частным лицам</a>
+
+													<ul class="menu__dropdown_list">
+														<li class="menu-item">
+															<a href="#">Страхование</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Ипотека</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Подбор недвижимости</a>
+														</li>
+													</ul>
+												</li>
+
+												<li class="menu-item menu__dropdown">
+													<a href="#">Бизнесу</a>
+
+													<ul class="menu__dropdown_list">
+														<li class="menu-item">
+															<a href="#">Страхование бизнеса</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Лизинг</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Факторинг</a>
+														</li>
+
+														<li class="menu-item">
+															<a href="#">Оценка и экспертиза</a>
+														</li>
+													</ul>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Документы</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Журнал</a>
+												</li>
+
+												<li class="menu-item">
+													<a href="#">Контакты</a>
+												</li>
+											</ul>
+										</nav>
+
+										<div class="rs-header__search search">
+											<div class="search__block">
+												<div class="search__wrapper">
+													<form action="#" class="search__form">
+														<div class="search__line">
+															<input type="text" placeholder="Введите текст"
+																class="search__input" required />
+															<button class="search__btn search__clear" type="button">
+																<svg width="14" height="14" viewBox="0 0 14 14"
+																	fill="none">
+																	<path
+																		d="M12.7342 1.2749C12.65 1.19052 12.55 1.12358 12.4399 1.0779C12.3298 1.03223 12.2117 1.00872 12.0925 1.00872C11.9733 1.00872 11.8553 1.03223 11.7452 1.0779C11.6351 1.12358 11.535 1.19052 11.4508 1.2749L7 5.71663L2.54916 1.26579C2.4649 1.18153 2.36486 1.11468 2.25476 1.06908C2.14466 1.02347 2.02665 1 1.90748 1C1.78831 1 1.6703 1.02347 1.5602 1.06908C1.4501 1.11468 1.35006 1.18153 1.26579 1.26579C1.18153 1.35006 1.11468 1.4501 1.06908 1.5602C1.02347 1.6703 1 1.78831 1 1.90748C1 2.02665 1.02347 2.14466 1.06908 2.25476C1.11468 2.36486 1.18153 2.4649 1.26579 2.54916L5.71663 7L1.26579 11.4508C1.18153 11.5351 1.11468 11.6351 1.06908 11.7452C1.02347 11.8553 1 11.9733 1 12.0925C1 12.2117 1.02347 12.3297 1.06908 12.4398C1.11468 12.5499 1.18153 12.6499 1.26579 12.7342C1.35006 12.8185 1.4501 12.8853 1.5602 12.9309C1.6703 12.9765 1.78831 13 1.90748 13C2.02665 13 2.14466 12.9765 2.25476 12.9309C2.36486 12.8853 2.4649 12.8185 2.54916 12.7342L7 8.28337L11.4508 12.7342C11.5351 12.8185 11.6351 12.8853 11.7452 12.9309C11.8553 12.9765 11.9733 13 12.0925 13C12.2117 13 12.3297 12.9765 12.4398 12.9309C12.5499 12.8853 12.6499 12.8185 12.7342 12.7342C12.8185 12.6499 12.8853 12.5499 12.9309 12.4398C12.9765 12.3297 13 12.2117 13 12.0925C13 11.9733 12.9765 11.8553 12.9309 11.7452C12.8853 11.6351 12.8185 11.5351 12.7342 11.4508L8.28337 7L12.7342 2.54916C13.0801 2.20329 13.0801 1.62077 12.7342 1.2749Z"
+																		fill="var(--icons-color-dark)" />
+																</svg>
+															</button>
+															<button class="search__btn search__submit" type="submit">
+																<svg viewBox="0 0 19 18" fill="none"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd"
+																		d="M8.37495 1.5C7.35839 1.50009 6.35659 1.74327 5.45314 2.20927C4.54968 2.67527 3.77077 3.35056 3.18137 4.17882C2.59198 5.00707 2.2092 5.96426 2.06498 6.97053C1.92075 7.97681 2.01926 9.00298 2.35228 9.96344C2.6853 10.9239 3.24318 11.7908 3.97937 12.4918C4.71557 13.1928 5.60872 13.7076 6.58433 13.9932C7.55994 14.2788 8.5897 14.327 9.58771 14.1337C10.5857 13.9404 11.523 13.5112 12.3214 12.882L15.0604 15.621C15.2019 15.7576 15.3913 15.8332 15.588 15.8315C15.7846 15.8298 15.9728 15.7509 16.1118 15.6119C16.2509 15.4728 16.3297 15.2847 16.3315 15.0881C16.3332 14.8914 16.2576 14.702 16.1209 14.5605L13.3819 11.8215C14.1229 10.8815 14.5843 9.7518 14.7133 8.56179C14.8422 7.37179 14.6335 6.16952 14.1111 5.09257C13.5887 4.01562 12.7736 3.10752 11.7592 2.47217C10.7447 1.83683 9.57192 1.49992 8.37495 1.5ZM3.49995 7.875C3.49995 6.58207 4.01356 5.34209 4.9278 4.42785C5.84204 3.51361 7.08202 3 8.37495 3C9.66788 3 10.9079 3.51361 11.8221 4.42785C12.7363 5.34209 13.2499 6.58207 13.2499 7.875C13.2499 9.16793 12.7363 10.4079 11.8221 11.3221C10.9079 12.2364 9.66788 12.75 8.37495 12.75C7.08202 12.75 5.84204 12.2364 4.9278 11.3221C4.01356 10.4079 3.49995 9.16793 3.49995 7.875Z"
+																		fill="currentColor" />
+																</svg>
+															</button>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+
+										<div class="menu__contact">
+											<h6>Свяжитесь с нами</h6>
+											<ul class="menu__list">
+												<li>
+													<a href="mailto:pro@sistema112.ru">
+														<img src="./img/icons/mail.svg" alt="">
+														pro@sistema112.ru
+													</a>
+												</li>
+												<li>
+													<a href="tel:78123177371">
+														<img src="./img/icons/mail.svg" alt="">
+														+7 812 317-73-71
+													</a>
+												</li>
+											</ul>
+											<a href="#" class="rs-btn _btn-primary">Cвязаться с нами</a>
+										</div>
+
+										<div class="rs-header__social social">
+											<ul class="social__list">
+												<li>
+													<a href="#">
+														<img src="./img/icons/vk.svg" alt="">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./img/icons/tg.svg" alt="">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="./img/icons/wa.svg" alt="">
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-header__actions">
+									<a href="tel:78123177371" class="rs-header__phone">
+										+7 812 317-73-71
+									</a>
+
+									<a href="#" class="rs-header__search-btn search-show">
+										<svg viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd"
+												d="M8.37495 1.5C7.35839 1.50009 6.35659 1.74327 5.45314 2.20927C4.54968 2.67527 3.77077 3.35056 3.18137 4.17882C2.59198 5.00707 2.2092 5.96426 2.06498 6.97053C1.92075 7.97681 2.01926 9.00298 2.35228 9.96344C2.6853 10.9239 3.24318 11.7908 3.97937 12.4918C4.71557 13.1928 5.60872 13.7076 6.58433 13.9932C7.55994 14.2788 8.5897 14.327 9.58771 14.1337C10.5857 13.9404 11.523 13.5112 12.3214 12.882L15.0604 15.621C15.2019 15.7576 15.3913 15.8332 15.588 15.8315C15.7846 15.8298 15.9728 15.7509 16.1118 15.6119C16.2509 15.4728 16.3297 15.2847 16.3315 15.0881C16.3332 14.8914 16.2576 14.702 16.1209 14.5605L13.3819 11.8215C14.1229 10.8815 14.5843 9.7518 14.7133 8.56179C14.8422 7.37179 14.6335 6.16952 14.1111 5.09257C13.5887 4.01562 12.7736 3.10752 11.7592 2.47217C10.7447 1.83683 9.57192 1.49992 8.37495 1.5ZM3.49995 7.875C3.49995 6.58207 4.01356 5.34209 4.9278 4.42785C5.84204 3.51361 7.08202 3 8.37495 3C9.66788 3 10.9079 3.51361 11.8221 4.42785C12.7363 5.34209 13.2499 6.58207 13.2499 7.875C13.2499 9.16793 12.7363 10.4079 11.8221 11.3221C10.9079 12.2364 9.66788 12.75 8.37495 12.75C7.08202 12.75 5.84204 12.2364 4.9278 11.3221C4.01356 10.4079 3.49995 9.16793 3.49995 7.875Z"
+												fill="currentColor" />
+										</svg>
+									</a>
+								</div>
+							</div>
+
+							<a href="#" class="rs-btn _btn-primary">Записаться online</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+
+			<link rel="stylesheet" href="css/rs-slider.css" />
+			<script src="js/rs-slider.js" defer></script>
+			<section class="rs-slider">
+				<div class="rs-slider__wrapper">
+					<div class="rs-slider__bg">
+						<picture>
+							<source srcset="./img/slider/slider_bg.jpg" media="(min-width: 991.98px)">
+							<img src="./img/slider/slider_bg--min.jpg" alt="">
+						</picture>
+					</div>
+
+					<div class="rs-slider__container">
+						<div class="rs-slider__slider swiper">
+							<div class="rs-slider__swiper swiper-wrapper">
+								<div class="rs-slider__slide swiper-slide">
+									<div class="rs-slider__content">
+										<div class="rs-slider__desc">
+											<div class="rs-slider__body">
+												<h1>Проводим сделки точно и безопасно</h1>
+												<h4>Берём на себя расчёты, юридическую проверку и организацию сделки —
+													без лишних рисков <br> и задержек</h4>
+											</div>
+											<div class="rs-slider__buttons">
+												<a href="#" class="rs-btn _btn-primary">
+													Обсудить вашу сделку
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-slider__slide swiper-slide">
+									<div class="rs-slider__content">
+										<div class="rs-slider__desc">
+											<div class="rs-slider__body">
+												<h2>Комплексные решения для недвижимости и бизнеса</h2>
+												<h4>Оценка, экспертиза, страхование, расчёты и
+													сопровождение – в одной компании, с одной точкой входа</h4>
+											</div>
+											<div class="rs-slider__buttons">
+												<a href="#" class="rs-btn _btn-primary">
+													Подобрать решение под задачу
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="rs-slider__slide swiper-slide">
+									<div class="rs-slider__content">
+										<div class="rs-slider__desc">
+											<div class="rs-slider__body">
+												<h1>Работаем там, где удобно вам</h1>
+												<h4>Сделки, расчёты и сопровождение – очно в Санкт-
+													Петербурге или дистанционно по всей России</h4>
+											</div>
+											<div class="rs-slider__buttons">
+												<a href="#" class="rs-btn _btn-primary">
+													Связаться с экспертом
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="rs-slider__action swiper-action">
+							<div class="rs-slider__navigation swiper-navigation">
+								<div class="rs-slider__button-prev swiper-button-prev">
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="rs-slider__button-next swiper-button-next">
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-services.css">
+			<section class="rs-services">
+				<div class="rs-services__container">
+					<div class="section-header">
+						<div class="section-header__title">
+							<h2>Комплекс услуг для вашего удобства</h2>
+						</div>
+					</div>
+
+					<div class="rs-services__wrapper">
+						<div class="rs-services__list">
+							<div class="rs-services__item">
+								<a href="#">
+									<div class="rs-services__head">
+										<h5>Расчётный центр</h5>
+									</div>
+									<div class="rs-services__foot">
+										<div class="rs-link">
+											Подробнее
+											<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+													stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" />
+											</svg>
+										</div>
+
+										<div class="rs-services__icon">
+											<img src="./img/services/services_icon-1.svg" alt="">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-services__item">
+								<a href="#">
+									<div class="rs-services__head">
+										<h5>Страхование</h5>
+									</div>
+									<div class="rs-services__foot">
+										<div class="rs-link">
+											Подробнее
+											<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+													stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" />
+											</svg>
+										</div>
+
+										<div class="rs-services__icon">
+											<img src="./img/services/services_icon-2.svg" alt="">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-services__item">
+								<a href="#">
+									<div class="rs-services__head">
+										<h5>Ипотека и подбор <br> недвижимости</h5>
+									</div>
+									<div class="rs-services__foot">
+										<div class="rs-link">
+											Подробнее
+											<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+													stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" />
+											</svg>
+										</div>
+
+										<div class="rs-services__icon">
+											<img src="./img/services/services_icon-3.svg" alt="">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-services__item">
+								<a href="#">
+									<div class="rs-services__head">
+										<h5>Лизинг</h5>
+									</div>
+									<div class="rs-services__foot">
+										<div class="rs-link">
+											Подробнее
+											<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+													stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" />
+											</svg>
+										</div>
+
+										<div class="rs-services__icon">
+											<img src="./img/services/services_icon-4.svg" alt="">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-services__item">
+								<a href="#">
+									<div class="rs-services__head">
+										<h5>Факторинг</h5>
+									</div>
+									<div class="rs-services__foot">
+										<div class="rs-link">
+											Подробнее
+											<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+													stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" />
+											</svg>
+										</div>
+
+										<div class="rs-services__icon">
+											<img src="./img/services/services_icon-5.svg" alt="">
+										</div>
+									</div>
+								</a>
+							</div>
+
+							<div class="rs-services__item">
+								<a href="#">
+									<div class="rs-services__head">
+										<h5>Оценка и экспертиза</h5>
+									</div>
+									<div class="rs-services__foot">
+										<div class="rs-link">
+											Подробнее
+											<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+													stroke="currentColor" stroke-linecap="round"
+													stroke-linejoin="round" />
+											</svg>
+										</div>
+
+										<div class="rs-services__icon">
+											<img src="./img/services/services_icon-6.svg" alt="">
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-text-block.css">
+			<section class="rs-text-block">
+				<div class="rs-text-block__wrapper">
+					<div class="rs-text-block__container">
+						<div class="rs-text-block__block">
+							<div class="rs-text-block__item">
+								<div class="rs-text-block__desc">
+									<h3>Система — мы оказываем финансовые, юридические и консалтинговые услуги
+										для бизнеса
+										и частным лицам, работаем с 2019 года</h3>
+									<p>АО «ТРЕЙЗЕР» – команда, которая помогает физическим и юридическим лицам проводить
+										сделки безопасно и удобно. Мы сопровождаем сделки с недвижимостью, продажи
+										бизнеса,
+										оценку и экспертизу активов, предоставляем услуги расчётного центра, факторинга
+										и сейфинга. Оформляем ипотеку для частных клиентов и компаний, помогаем
+										с корпоративным и личным страхованием.</p>
+									<p>В составе группы компаний «Система» мы также предлагаем налоговый консалтинг,
+										управление коммерческой недвижимостью и комплексную безопасность.</p>
+									<blockquote>
+										<p>Наша задача — не усложнять процессы, а делать их прозрачными и понятными.
+											Мы ценим время и интересы клиентов и всегда предлагаем решения, исходя
+											из реальной практики, а не формальных стандартов.</p>
+									</blockquote>
+									<a href="#" class="rs-btn _btn-primary">Получить консультацию</a>
+								</div>
+							</div>
+							<div class="rs-text-block__item">
+								<div class="rs-text-block__picture">
+									<div class="rs-text-block__img">
+										<img src="./img/text-block/text-block_img-1.jpg" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-features.css">
+			<script src="js/rs-features.js" defer></script>
+			<section class="rs-features">
+				<div class="rs-features__container">
+					<div class="section-header">
+						<div class="section-header__title">
+							<h2>То, что делает работу с нами удобной</h2>
+						</div>
+					</div>
+
+					<div class="rs-features__slider swiper">
+						<div class="rs-features__swiper swiper-wrapper">
+							<div class="rs-features__slide swiper-slide rs-features__slide-4">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/features/features_icon-1.svg" alt="">
+									</div>
+									<div class="rs-features__desc">
+										<h5>Честные тарифы</h5>
+										<p>Прозрачное ценообразование и фиксированные ставки без скрытых платежей —
+											вы заранее знаете стоимость всех услуг</p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide swiper-slide rs-features__slide-4">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/features/features_icon-2.svg" alt="">
+									</div>
+									<div class="rs-features__desc">
+										<h5>Отлаженные процессы</h5>
+										<p>Работаем по утверждённым регламентам, все сотрудники проходят специальное
+											обучение для точного выполнения задач</p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide swiper-slide rs-features__slide-4">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/features/features_icon-3.svg" alt="">
+									</div>
+									<div class="rs-features__desc">
+										<h5>Единый партнёр</h5>
+										<p>Все необходимые вашему бизнесу компетенции — от расчётов до юридической
+											поддержки — сосредоточены в одном месте </p>
+									</div>
+								</div>
+							</div>
+							<div class="rs-features__slide swiper-slide rs-features__slide-4">
+								<div class="rs-features__item">
+									<div class="rs-features__img">
+										<img src="./img/features/features_icon-4.svg" alt="">
+									</div>
+									<div class="rs-features__desc">
+										<h5>Конфиденциальная безопасность</h5>
+										<p>Гарантируем полную защиту данных и обеспечение комплексной безопасности
+											на каждом этапе сотрудничества</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-partners.css">
+			<script src="js/rs-partners.js" defer></script>
+			<section class="rs-partners">
+				<div class="rs-partners__container">
+					<div class="section-header">
+						<div class="section-header__title">
+							<h2>Наши партнёры</h2>
+						</div>
+					</div>
+
+					<div class="rs-partners__slider swiper">
+						<div class="rs-partners__swiper swiper-wrapper">
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-1.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-2.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-3.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-4.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-2.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-3.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-1.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-2.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-3.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-4.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-2.png" alt="">
+							</div>
+							<div class="rs-partners__slide swiper-slide">
+								<img src="./img/logo/logo_img-3.png" alt="">
+							</div>
+						</div>
+						<div class="rs-partners__action swiper-action">
+							<div class="rs-partners__navigation swiper-navigation">
+								<div class="rs-partners__button-prev swiper-button-prev">
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="rs-partners__button-next swiper-button-next">
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-news.css">
+			<script src="js/rs-news.js" defer></script>
+			<section class="rs-news">
+				<div class="rs-news__container">
+					<div class="section-header">
+						<div class="section-header__title">
+							<h2>Журнал</h2>
+						</div>
+						<a href="#" class="rs-btn _btn-primary-border">
+							Посмотреть все новости
+						</a>
+					</div>
+
+					<div class="rs-news__slider swiper">
+						<div class="rs-news__swiper swiper-wrapper">
+							<div class="rs-news__slide swiper-slide">
+								<div class="rs-news__item">
+									<a href="#" class="rs-news__link">
+										<div class="rs-news__picture">
+											<div class="rs-news__img">
+												<img src="./img/news/news_img-1.jpg" alt="">
+											</div>
+											<div class="rs-news__date">28.03.2025</div>
+										</div>
+										<div class="rs-news__desc">
+											<h5>Годовое заседание общего собрания акционеров (дата проведения
+												23.04.25 г.)</h5>
+											<div class="rs-link">
+												Подробнее
+												<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+														stroke="currentColor" stroke-linecap="round"
+														stroke-linejoin="round" />
+												</svg>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="rs-news__slide swiper-slide">
+								<div class="rs-news__item">
+									<a href="#" class="rs-news__link">
+										<div class="rs-news__picture">
+											<div class="rs-news__img">
+												<img src="./img/news/news_img-2.jpg" alt="">
+											</div>
+											<div class="rs-news__date">28.03.2025</div>
+										</div>
+										<div class="rs-news__desc">
+											<h5>Выставка TransRussia 2025. Презентация нового продукта</h5>
+											<div class="rs-link">
+												Подробнее
+												<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+														stroke="currentColor" stroke-linecap="round"
+														stroke-linejoin="round" />
+												</svg>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="rs-news__slide swiper-slide">
+								<div class="rs-news__item">
+									<a href="#" class="rs-news__link">
+										<div class="rs-news__picture">
+											<div class="rs-news__img">
+												<img src="./img/news/news_img-3.jpg" alt="">
+											</div>
+											<div class="rs-news__date">28.03.2025</div>
+										</div>
+										<div class="rs-news__desc">
+											<h5>Выставка TransRussia 2025. Презентация нового продукта</h5>
+											<div class="rs-link">
+												Подробнее
+												<svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+													xmlns="http://www.w3.org/2000/svg">
+													<path d="M7.83333 3.125L12 7.5M12 7.5L7.83333 11.875M12 7.5L2 7.5"
+														stroke="currentColor" stroke-linecap="round"
+														stroke-linejoin="round" />
+												</svg>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="rs-news__action swiper-action">
+							<div class="rs-news__navigation swiper-navigation">
+								<div class="rs-news__button-prev swiper-button-prev">
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="rs-news__button-next swiper-button-next">
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+										xmlns="http://www.w3.org/2000/svg">
+										<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+											stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="section-footer">
+						<a href="#" class="rs-btn _btn-primary-border">
+							Посмотреть все новости
+						</a>
+					</div>
+				</div>
+
+				<div class="cursor">
+					<div class="cursor__point-zero">
+						<div class="cursor__wrapper">
+							<div class="cursor__circle">
+								<svg width="75" height="75" viewBox="0 0 75 75" fill="none"
+									xmlns="http://www.w3.org/2000/svg" class="astro-OFXTMV4X" style="--tint:white">
+									<path class="indicator astro-OFXTMV4X" id="nav"
+										d="M46 30C46 29.4477 45.5523 29 45 29L36 29C35.4477 29 35 29.4477 35 30C35 30.5523 35.4477 31 36 31H44V39C44 39.5523 44.4477 40 45 40C45.5523 40 46 39.5523 46 39V30ZM30.7071 45.7071L45.7071 30.7071L44.2929 29.2929L29.2929 44.2929L30.7071 45.7071Z"
+										fill="#fff"></path>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<link rel="stylesheet" href="css/rs-reviews.css">
+			<script src="js/rs-reviews.js" defer></script>
+			<section class="rs-reviews">
+				<div class="rs-reviews__wrapper">
+					<div class="rs-reviews__bg">
+						<img src="./img/reviews/reviews_bg.jpg" alt="">
+					</div>
+					<div class="rs-reviews__container">
+						<div class="section-header">
+							<div class="section-header__title">
+								<h2>Отзывы</h2>
+							</div>
+							<a href="#" class="rs-btn _btn-white">
+								Все отзывы
+							</a>
+						</div>
+
+						<div class="rs-reviews__slider swiper">
+							<div class="rs-reviews__swiper swiper-wrapper">
+								<div class="rs-reviews__slide swiper-slide">
+									<div class="rs-reviews__item">
+										<div class="rs-reviews__desc">
+											<p>Арендовали ячейку для расчётов при покупке паркинга. Все удобно.
+												По записи. Рекомендую!</p>
+										</div>
+										<div class="rs-reviews__footer">
+											<h6>Светлана Д.</h6>
+											<div class="rs-reviews__date">09.04.2025</div>
+										</div>
+									</div>
+								</div>
+								<div class="rs-reviews__slide swiper-slide">
+									<div class="rs-reviews__item">
+										<div class="rs-reviews__desc">
+											<p>Очень удобное расположение, нет очередей, быстрое оказание услуги
+												и оформление документов, рекомендую</p>
+										</div>
+										<div class="rs-reviews__footer">
+											<h6>Елизавета Б. </h6>
+											<div class="rs-reviews__date">09.04.2025</div>
+										</div>
+									</div>
+								</div>
+								<div class="rs-reviews__slide swiper-slide">
+									<div class="rs-reviews__item">
+										<div class="rs-reviews__desc">
+											<p>Обратилась для услуги регистрации недвижимости, все прошло отлично,
+												быстро и качественно, сервис на высоте. Обязательно буду рекомендовать
+												данный депозитарий.</p>
+										</div>
+										<div class="rs-reviews__footer">
+											<h6>К.</h6>
+											<div class="rs-reviews__date">09.04.2025</div>
+										</div>
+									</div>
+								</div>
+								<div class="rs-reviews__slide swiper-slide">
+									<div class="rs-reviews__item">
+										<div class="rs-reviews__desc">
+											<p>Арендовали ячейку для расчётов при покупке паркинга. Все удобно.
+												По записи. Рекомендую!</p>
+										</div>
+										<div class="rs-reviews__footer">
+											<h6>Светлана Д.</h6>
+											<div class="rs-reviews__date">09.04.2025</div>
+										</div>
+									</div>
+								</div>
+								<div class="rs-reviews__slide swiper-slide">
+									<div class="rs-reviews__item">
+										<div class="rs-reviews__desc">
+											<p>Очень удобное расположение, нет очередей, быстрое оказание услуги
+												и оформление документов, рекомендую</p>
+										</div>
+										<div class="rs-reviews__footer">
+											<h6>Елизавета Б. </h6>
+											<div class="rs-reviews__date">09.04.2025</div>
+										</div>
+									</div>
+								</div>
+								<div class="rs-reviews__slide swiper-slide">
+									<div class="rs-reviews__item">
+										<div class="rs-reviews__desc">
+											<p>Обратилась для услуги регистрации недвижимости, все прошло отлично,
+												быстро и качественно, сервис на высоте. Обязательно буду рекомендовать
+												данный депозитарий.</p>
+										</div>
+										<div class="rs-reviews__footer">
+											<h6>К.</h6>
+											<div class="rs-reviews__date">09.04.2025</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="rs-reviews__action swiper-action">
+								<div class="rs-reviews__navigation swiper-navigation">
+									<div class="rs-reviews__button-prev swiper-button-prev">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M10.0002 13L4.00018 7L10.0002 1" stroke="#363B49" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+									<div class="rs-reviews__button-next swiper-button-next">
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<path d="M4.00018 13L10.0002 7L4.00018 1" stroke="#363B49" stroke-width="2"
+												stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="section-footer">
+							<a href="#" class="rs-btn _btn-white">
+								Все отзывы
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<link rel="stylesheet" href="css/rs-footer.css">
+		<footer>
+			<div class="rs-footer">
+				<div class="rs-footer__container">
+					<div class="rs-footer__spollers">
+						<div class="rs-footer__spollers_item">
+							<h6 class="rs-footer__spollers_title">Контакты</h6>
+							<div class="rs-footer__spollers_body">
+								<ul>
+									<li><a href="tel:78123177371">Телефон: +7 812 317-73-71</a></li>
+									<li><a href="mailto:pro@sistema112.ru">E-mail: pro@sistema112.ru</a></li>
+									<li>Режим работы: Пн–Вс с 09:30 до 22:00</li>
+									<li>Адрес: 198095, г. Санкт-Петербург, ул. Балтийская д. 52–54 лит. Д</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="rs-footer__spollers_item">
+							<h6 class="rs-footer__spollers_title">Расчётный центр</h6>
+							<div class="rs-footer__spollers_body">
+								<ul>
+									<li><a href="#">Юридическое сопровождение сделок</a></li>
+									<li><a href="#">Организация взаиморасчётов сторон</a></li>
+									<li><a href="#">Регистрация в Росреест</a></li>
+									<li><a href="#">Сейфинг</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="rs-footer__spollers_item">
+							<h6 class="rs-footer__spollers_title">Частным лицам</h6>
+							<div class="rs-footer__spollers_body">
+								<ul>
+									<li><a href="#">Страхование</a></li>
+									<li><a href="#">Ипотека</a></li>
+									<li><a href="#">Подбор недвижимости</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="rs-footer__spollers_item">
+							<h6 class="rs-footer__spollers_title">Бизнесу</h6>
+							<div class="rs-footer__spollers_body">
+								<ul>
+									<li><a href="#">Страхование бизнеса</a></li>
+									<li><a href="#">Лизинг</a></li>
+									<li><a href="#">Факторинг</a></li>
+									<li><a href="#">Оценка и экспертиза</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="rs-footer__spollers_item">
+							<h6 class="rs-footer__spollers_title">Информация</h6>
+							<div class="rs-footer__spollers_body">
+								<ul>
+									<li><a href="#">Главная</a></li>
+									<li><a href="#">Документы</a></li>
+									<li><a href="#">Журнал</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="rs-footer__actions">
+						<div class="rs-footer__btn">
+							<a href="#" class="rs-btn _btn-primary">Записаться online</a>
+						</div>
+
+						<div class="rs-footer__social">
+							<ul>
+								<li><a href="#" class="rs-footer__social--link-vk"><img src="./img/icons/vk--white.svg"
+											alt=""></a></li>
+								<li><a href="#" class="rs-footer__social--link-tg"><img src="./img/icons/tg--white.svg"
+											alt=""></a></li>
+								<li><a href="#" class="rs-footer__social--link-wa"><img src="./img/icons/wa--white.svg"
+											alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="rs-footer__bottom">
+						<div class="rs-footer__copyright">© АО «ТРЕЙЗЕР» 2025. Все права защищены.</div>
+						<div class="rs-footer__dev">
+							<a href="https://rosait.ru/" target="_blank">
+								Разработано в Россайт
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+	<script src="lib/swiper/swiper-bundle.min.js"></script>
+	<script src="js/rs-script.js"></script>
+	<script src="js/rs-animation.js"></script>
+
+</body>
+
+</html>

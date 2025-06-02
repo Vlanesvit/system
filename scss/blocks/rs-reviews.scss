@@ -1,0 +1,55 @@
+.rs-reviews {
+	// .rs-reviews__container
+	&__container {
+		.section-header__title {
+			color: #fff;
+		}
+	}
+
+	&__wrapper {
+		padding: 72px 0;
+		max-width: 1494px;
+		margin: 0 auto;
+		border-radius: 16px;
+		position: relative;
+		overflow: hidden;
+
+		@media (max-width: 991.98px) {
+			padding: 36px 0;
+		}
+	}
+
+	&__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	// .rs-reviews__slider
+	&__slider {
+		@media (max-width: 991.98px) {
+			overflow: visible;
+		}
+	}
+
+	// .rs-reviews__swiper
+	&__swiper {
+	}
+
+	// .rs-reviews__slide
+	&__slide {
+		min-height: 1px;
+		height: auto;
+	}
+}
+
+@import "../components/reviews-components";
