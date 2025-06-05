@@ -565,11 +565,12 @@
 }
 @media (any-hover: hover) {
   .rs-header__menu .menu__list li:hover > a {
-    color: var(--primary-color) !important;
+    color: var(--color) !important;
   }
   .rs-header__menu .menu__list li:hover > a span::after {
     width: 100%;
     left: 0;
+    background-color: var(--color);
   }
 }
 .rs-header__menu .menu__list li > i, .rs-header__menu .menu__list li > button {

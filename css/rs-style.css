@@ -518,11 +518,28 @@ p {
     color: var(--primayr-color);
   }
 }
+.rs-link span:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 1px;
+  background-color: currentColor;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
 .rs-link svg {
   width: 14px;
   height: 14px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+@media (any-hover: hover) {
+  .rs-link:hover span:after {
+    width: 100%;
+    left: 0;
+  }
 }
 
 .swiper {

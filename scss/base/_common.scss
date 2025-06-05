@@ -245,9 +245,33 @@ blockquote {
 		}
 	}
 
+	span {
+		&:after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			width: 0%;
+			height: 1px;
+			background-color: currentColor;
+			transition: all 0.3s ease 0s;
+		}
+	}
+
 	svg {
 		width: 14px;
 		height: 14px;
 		flex-shrink: 0;
+	}
+
+	@media (any-hover: hover) {
+		&:hover {
+			span {
+				&:after {
+					width: 100%;
+					left: 0;
+				}
+			}
+		}
 	}
 }

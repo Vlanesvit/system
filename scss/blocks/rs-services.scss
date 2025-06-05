@@ -27,6 +27,8 @@
 	&__item {
 		background: #f4f6f7;
 		border-radius: 8px;
+		border: 1px solid transparent;
+		transition: border-color 0.3s ease 0s;
 
 		a {
 			padding: 24px;
@@ -43,8 +45,16 @@
 
 		@media (any-hover: hover) {
 			&:hover {
+				border-color: var(--color);
+
 				.rs-link {
-					color: var(--primary-color);
+					span {
+						&::after {
+							width: 100%;
+							left: 0;
+							background-color: var(--color);
+						}
+					}
 				}
 			}
 		}

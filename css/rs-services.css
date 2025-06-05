@@ -17,6 +17,9 @@
 .rs-services__item {
   background: #f4f6f7;
   border-radius: 8px;
+  border: 1px solid transparent;
+  -webkit-transition: border-color 0.3s ease 0s;
+  transition: border-color 0.3s ease 0s;
 }
 .rs-services__item a {
   padding: 24px;
@@ -39,8 +42,13 @@
   }
 }
 @media (any-hover: hover) {
-  .rs-services__item:hover .rs-link {
-    color: var(--primary-color);
+  .rs-services__item:hover {
+    border-color: var(--color);
+  }
+  .rs-services__item:hover .rs-link span::after {
+    width: 100%;
+    left: 0;
+    background-color: var(--color);
   }
 }
 .rs-services__foot {
