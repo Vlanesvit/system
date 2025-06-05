@@ -239,6 +239,12 @@ blockquote {
 	transition: all 0.3s ease 0s;
 	padding: 5px 0px;
 
+	@media (any-hover: hover) {
+		&:hover {
+			color: var(--primayr-color);
+		}
+	}
+
 	svg {
 		width: 14px;
 		height: 14px;

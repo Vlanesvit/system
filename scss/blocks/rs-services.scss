@@ -40,6 +40,14 @@
 				padding: 16px;
 			}
 		}
+
+		@media (any-hover: hover) {
+			&:hover {
+				.rs-link {
+					color: var(--primary-color);
+				}
+			}
+		}
 	}
 
 	// .rs-services__head

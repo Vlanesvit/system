@@ -1013,7 +1013,7 @@
 }
 @media (any-hover: hover) {
   .rs-header__search-btn:hover {
-    background: var(--primary-color);
+    background: var(--second-color);
     color: #fff;
   }
 }
@@ -1154,6 +1154,21 @@
     padding: 10px;
     border-radius: 8px;
     background-color: #fff;
+  }
+}
+@media (any-hover: hover) {
+  .rs-header__social .social__list--link-vk:hover {
+    color: var(--icon-vk);
+  }
+}
+@media (any-hover: hover) {
+  .rs-header__social .social__list--link-tg:hover {
+    color: var(--icon-tg);
+  }
+}
+@media (any-hover: hover) {
+  .rs-header__social .social__list--link-wa:hover {
+    color: var(--icon-wa);
   }
 }
 .rs-header .rs-btn {

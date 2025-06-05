@@ -60,6 +60,15 @@
 .rs-footer__spollers_body ul li:not(:last-child) {
   margin-bottom: 10px;
 }
+.rs-footer__spollers_body ul li a {
+  -webkit-transition: color 0.3s ease 0s;
+  transition: color 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .rs-footer__spollers_body ul li a:hover {
+    color: var(--primary-color);
+  }
+}
 .rs-footer__actions {
   padding: 24px 0;
   margin: 48px 0;
@@ -129,12 +138,24 @@
 .rs-footer__social ul li a svg {
   width: 24px;
   height: 24px;
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
 }
 @media (max-width: 991.98px) {
   .rs-footer__social ul li a img,
   .rs-footer__social ul li a svg {
     width: 16px;
     height: 16px;
+  }
+}
+@media (any-hover: hover) {
+  .rs-footer__social ul li:hover a img,
+  .rs-footer__social ul li:hover a svg {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
   }
 }
 .rs-footer__social--link-vk {

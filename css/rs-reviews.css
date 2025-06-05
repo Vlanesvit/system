@@ -62,11 +62,24 @@
 }
 .rs-reviews__desc {
   margin-bottom: 36px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+@media (max-width: 1439.98px) {
+  .rs-reviews__desc {
+    font-size: 14px;
+  }
 }
 @media (max-width: 767.98px) {
   .rs-reviews__desc {
     margin-bottom: 20px;
   }
+}
+.rs-reviews__desc p {
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 .rs-reviews__date {
   display: inline-block;

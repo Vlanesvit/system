@@ -18,9 +18,23 @@
 	// .rs-reviews__desc
 	&__desc {
 		margin-bottom: 36px;
+		font-weight: 500;
+		font-size: 16px;
+		// line-height: 22px;
+		line-height: 140%;
+
+		@media (max-width: 1439.98px) {
+			font-size: 14px;
+		}
 
 		@media (max-width: 767.98px) {
 			margin-bottom: 20px;
+		}
+
+		p {
+			font-weight: inherit;
+			font-size: inherit;
+			line-height: inherit;
 		}
 	}
 

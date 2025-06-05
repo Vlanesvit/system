@@ -61,6 +61,16 @@
 					&:not(:last-child) {
 						margin-bottom: 10px;
 					}
+
+					a {
+						transition: color 0.3s ease 0s;
+
+						@media (any-hover: hover) {
+							&:hover {
+								color: var(--primary-color);
+							}
+						}
+					}
 				}
 			}
 		}
@@ -119,10 +129,22 @@
 					svg {
 						width: 24px;
 						height: 24px;
+						transition: transform 0.3s ease 0s;
 
 						@media (max-width: 991.98px) {
 							width: 16px;
 							height: 16px;
+						}
+					}
+				}
+
+				@media (any-hover: hover) {
+					&:hover {
+						a {
+							img,
+							svg {
+								transform: scale(1.2);
+							}
 						}
 					}
 				}

@@ -1002,7 +1002,7 @@
 
 		@media (any-hover: hover) {
 			&:hover {
-				background: var(--primary-color);
+				background: var(--second-color);
 				color: #fff;
 			}
 		}
@@ -1127,6 +1127,28 @@
 							padding: 10px;
 							border-radius: 8px;
 							background-color: #fff;
+						}
+					}
+				}
+
+				&--link-vk {
+					@media (any-hover: hover) {
+						&:hover {
+							color: var(--icon-vk);
+						}
+					}
+				}
+				&--link-tg {
+					@media (any-hover: hover) {
+						&:hover {
+							color: var(--icon-tg);
+						}
+					}
+				}
+				&--link-wa {
+					@media (any-hover: hover) {
+						&:hover {
+							color: var(--icon-wa);
 						}
 					}
 				}

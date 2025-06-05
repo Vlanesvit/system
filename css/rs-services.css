@@ -38,6 +38,11 @@
     padding: 16px;
   }
 }
+@media (any-hover: hover) {
+  .rs-services__item:hover .rs-link {
+    color: var(--primary-color);
+  }
+}
 .rs-services__foot {
   margin-top: 24px;
   display: -webkit-box;
